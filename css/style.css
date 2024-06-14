@@ -1,11 +1,131 @@
-/*Estilos del inicio*/
 
 *{
     margin: 0px;
     padding: 0;
     box-sizing: border-box;
-}
+    }
+    
+    
+    body{
+        color: #776B5D;
+        font-family: "Quicksand", sans-serif;
+        background-image: url(../imagenes/Fondo\ huellas.png);
+        
+        }
+        /*---------estilos de menu------------*/
 
+
+        .logoImg a img{
+            border-radius: 40px;
+        }
+
+        nav{
+            margin: 0px 0px 50px 0px;
+        }
+
+
+        .nav-item a:hover{
+            color: aqua;
+        }
+        
+        .nav-item{
+            margin: 10px;
+        }
+        
+
+
+        nav{
+            display: flex;
+            justify-content: space-between;
+            
+            
+            height: 100px;
+            
+            }
+            
+            .btn{
+                width: 40px;
+                height: 40px;
+                border-radius: 30px;
+               background-color: lightskyblue;
+               margin-right: 100px;
+            }
+            
+            .btn img{
+                height: 100%;
+                width: 100%;
+            }
+            
+            .cabeza{
+                margin-bottom: 15%;
+            }
+            
+            
+            
+            
+            .logoo{
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+            margin-left: 60px;
+            
+            }
+            .logoo img{
+             width: 100%;
+             height: 100%;
+             overflow: hidden;
+             border-radius: 40px;
+            
+             
+            }
+            
+            
+            
+            
+            .menu{
+                color: #776B5D;
+                display: flex;
+                flex-direction: column;
+             
+                 
+                 
+            
+            }
+            
+            menu li:hover{
+                height: 200px; width: 200px;
+                padding: 20px;
+                background-color: cyan;
+            }
+            
+            
+            .menu li{
+                color: #776B5D;
+                margin: 5px;
+                padding: 5px;
+            }
+            
+            .menu li a{
+                all: unset;
+                cursor: pointer;
+                font-size: 20px;
+                color: blue;
+                font-weight: 600;
+                width: 100px; height: 100px;
+                transition: all 2s; 
+            }
+            
+            .menu li a:hover{
+                color: cyan;
+                text-decoration: underline;
+            }
+            
+
+
+
+        
+        /*-------Estilos del inicio---------------*/
+        
 .inicio{
     color: #776B5D;
     display: flex;
@@ -15,146 +135,15 @@
     
 }
 
-body{
-    color: #776B5D;
-    font-family: "Quicksand", sans-serif;
-   background-image: url(../imagenes/Fondo\ huellas.png);
-   
-}
-
-
-nav{
-display: flex;
-justify-content: space-between;
-
-
-height: 100px;
-
-}
-
-.btn{
-    width: 40px;
-    height: 40px;
-    border-radius: 30px;
-   background-color: lightskyblue;
-   margin-right: 100px;
-}
-
-.btn img{
-    height: 100%;
-    width: 100%;
-}
-
-.cabeza{
-    margin-bottom: 15%;
-}
-
-
-.botonContacto:hover{
-    color: aqua;
-    background-color: black;
-}
-
-.botonContacto{
-   height: 60px;
-   width: 70px;
-   
-}
-
-.logoo{
-width: 100px;
-height: 100px;
-margin: 10px;
-margin-left: 60px;
-
-}
-.logoo img{
- width: 100%;
- height: 100%;
- overflow: hidden;
- border-radius: 40px;
-
- 
-}
-
-
-
-
-.menu{
-    color: #776B5D;
-    display: flex;
-    flex-direction: column;
- 
-     
-     
-
-}
-
-menu li:hover{
-    height: 200px; width: 200px;
-    padding: 20px;
-    background-color: cyan;
-}
-
-
-.menu li{
-    color: #776B5D;
-    margin: 5px;
-    padding: 5px;
-}
-
-.menu li a{
-    all: unset;
-    cursor: pointer;
-    font-size: 20px;
-    color: blue;
-    font-weight: 600;
-    width: 100px; height: 100px;
-    transition: all 2s; 
-}
-
-.menu li a:hover{
-    color: cyan;
-    text-decoration: underline;
-}
-
-
-.hijo {
-    display: flex;
-    height: 10px;
-  
-    
-}
-
-.mascota{
-    color: #776B5D;
-    display: flex;
-    height: 90px;
-    
-    justify-content: center;
-    margin-top: 60px;
-}
-
-.imagenMascota{
-    height: 200px;
-    width: 250px;
-    background-color: #EBE3D5;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    margin-bottom: 10px;
-}
-
-.imagenMascota img {
-    width: 100%;
-    overflow: hidden;
-    height: 100%;
-    
-}
-
 .textoMascota{
    
     height: 200px;
     background-color: white;
 }
+
+
+
+
 
 .principal{
     display: flex;
@@ -181,6 +170,54 @@ menu li:hover{
     
 }
 
+
+
+.hijo {
+    display: flex;
+    height: 10px;
+  
+    
+}
+
+.mascota{
+    color: #776B5D;
+    display: flex;
+    height: 90px;
+    
+    justify-content: center;
+    margin-top: 60px;
+}
+
+
+
+
+    /*------Imagenes del incio-----*/
+
+.imagenMascota{
+    height: 200px;
+    width: 250px;
+    background-color: #EBE3D5;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-bottom: 10px;
+}
+
+.imagenMascota img {
+    width: 100%;
+    overflow: hidden;
+    height: 100%;
+    
+}
+
+
+
+
+
+
+
+
+
+
+/*------Infio pie de pagina*/
 .infoPie{
     display: flex;
    justify-content: space-around;
@@ -207,49 +244,20 @@ border-radius: 10px;
     text-align: center;
 }
 
-@media (width <= 800px) and (width >= 500px){
-    .borde, .borde1, .borde2, .borde3{
-        margin: 3px;
-      
-    }  
-    .principal{
-        justify-content: center;
-    }
-}
-
-@media (width <= 500px){
-
-    .principal{
-        justify-content: center;
-    }
-
-   /*  .logoo img{
-        width: 50px;
-        height: 50px;
-    }
- */
-
-    .infoPie{
-        flex-direction: column;
-        align-items: center;
-    }
-    .borde, .borde1, .borde2, .borde3{
-        margin: 3px;
-    
-    }  
-     .botones button{
-        
-        width: 35px;
-     }  
-     .botones{
-        margin-right: 5px;
-     } 
-}
 
 
-/*Estilos del inicio*/
 
-/* https://colorhunt.co/palette/f3eeeaebe3d5b0a695776b5d */ 
+
+
+
+
+
+
+
+
+/*-----------Estilos de las imagenes-----------*/
+
+
 
 
 .grandePerro{
@@ -265,6 +273,8 @@ border-radius: 10px;
 }
 
 
+/*------------Informacion sobre nosotros--------*/
+
 .infoNosotros{
     background-color: white;
     margin-top: 40px;
@@ -272,27 +282,16 @@ border-radius: 10px;
 }
 
 
-@media (width <= 500px){
-    .grandePerro{
-        height: 200px;
-        width: 300px;
-    }
-}
+.contenedorPerro{
+    display: flex;
+    justify-content: center;
+ }
 
 
 
-@media (width <= 800px) and (width >= 500px){
-    .grandePerro img{
-       margin-top: 40px;
-      
-    }
-    .infoNosotros{
-       margin-top: 100px;
-    }
-}
 
 
-/*aca comienza todo sobnre criadores*/
+/*aca comienza todo sobre criadores*/
 
 
 .foto1{
@@ -350,13 +349,7 @@ border-radius: 10px;
 
 }
 
-.nav-item a:hover{
-    color: aqua;
-}
-
-.nav-item{
-    margin: 10px;
-}
+/*-----------formulario de contacto-------*/
 
 .contenedorFormulario{
     margin: 0 auto;
@@ -370,13 +363,101 @@ border-radius: 10px;
     resize:none;
 }
 
-nav{
-    margin: 0px 0px 50px 0px;
+.botonContacto:hover{
+
+    
+
+    color: cyan;
 }
 
-.logoImg a img{
-    border-radius: 40px;
+.botonContacto{
+    color: rgb(7, 7, 53);
+    font-weight: 600;
+    width: 70px; height: 70px;
+    transition: all 1s;
 }
+.botonContacto:hover{
+
+    
+
+    color: cyan;
+}
+
+
+
+
+
+
+/*--------media--------*/
+
+
+@media (width <= 800px) and (width >= 500px){
+    .borde, .borde1, .borde2, .borde3{
+        margin: 3px;
+      
+    }  
+    .principal{
+        justify-content: center;
+    }
+}
+
+@media (width <= 500px){
+
+    .principal{
+        justify-content: center;
+    }
+
+   /*  .logoo img{
+        width: 50px;
+        height: 50px;
+    }
+ */
+
+
+    .infoPie{
+        flex-direction: column;
+        align-items: center;
+    }
+    .borde, .borde1, .borde2, .borde3{
+        margin: 3px;
+    
+    }  
+     .botones button{
+        
+        width: 35px;
+     }  
+     .botones{
+        margin-right: 5px;
+     } 
+}
+
+
+@media (width <= 500px){
+    .grandePerro{
+        height: 200px;
+        width: 300px;
+    }
+}
+
+
+
+@media (width <= 800px) and (width >= 500px){
+    .grandePerro img{
+       margin-top: 40px;
+      
+    }
+    .infoNosotros{
+       margin-top: 100px;
+    }
+}
+
+
+
+
+
+
+
+
 
 @media (width <= 500px){
 
@@ -419,16 +500,8 @@ nav{
 
 
 
- .contenedorPerro{
-    display: flex;
-    justify-content: center;
- }
+ 
 
- .accordion-body{
-   width: 200px; ;
-   height: 100px;
 
-   
-   overflow: scroll;
- }
 
+ 
