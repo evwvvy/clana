@@ -259,22 +259,6 @@ border-radius: 10px;
 
 
 
-/*-----------Estilos de las imagenes-----------*/
-
-
-
-
-.grandePerro{
-    height: 300px;
-    width: 500px;
-
-}
-.grandePerro img{
-    height: 100%;
-    width: 100%;
-    
-   margin-left: 20px;
-}
 
 
 /*------------Informacion sobre nosotros--------*/
@@ -290,6 +274,26 @@ border-radius: 10px;
     display: flex;
     justify-content: center;
  }
+
+
+
+
+ /*-----------Estilos de las imagenes sobre nosotros-----------*/
+
+
+
+
+.grandePerro{
+    height: 300px;
+    width: 500px;
+
+}
+.grandePerro img{
+    height: 100%;
+    width: 100%;
+    
+   margin-left: 20px;
+}
 
 
 
@@ -395,15 +399,7 @@ border-radius: 10px;
 /*--------media celular--------*/
 
 
-@media (width <= 800px) and (width >= 500px){
-    .borde, .borde1, .borde2, .borde3{
-        margin: 3px;
-      
-    }  
-    .principal{
-        justify-content: center;
-    }
-}
+
 
 @media (width <= 500px){
 
@@ -445,22 +441,6 @@ border-radius: 10px;
 
 
 
-@media (width <= 800px) and (width >= 500px){
-    .grandePerro img{
-       margin-top: 40px;
-      
-    }
-    .infoNosotros{
-       margin-top: 100px;
-    }
-}
-
-
-
-
-
-
-
 
 
 @media (width <= 500px){
@@ -494,18 +474,38 @@ border-radius: 10px;
 
 
 
+
+
+
+
+
+ 
+
+/*------------------media tablet------------*/
+
  @media (width <= 800px) and (width >= 500px){
+    .borde, .borde1, .borde2, .borde3{
+        margin: 3px;
+      
+    }  
+    .principal{
+        justify-content: center;
+    }
+}
+
+
+@media (width <= 800px) and (width >= 500px){
+    .grandePerro img{
+       margin-top: 40px;
+      
+    }
+    .infoNosotros{
+       margin-top: 100px;
+    }
+}
+
+@media (width <= 800px) and (width >= 500px){
     .contenedorFormula{
         margin: 15%;
     }
  }
-
-
-
-
-
- 
-
-
-
- 
